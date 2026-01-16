@@ -1,14 +1,3 @@
-alphabet=input(
-    "Informe o alfabeto custom a ser utilizado\n"
-    "(exemplo: abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=),\n"
-    "ou pressione Enter para o alfabeto padrão RFC4648: "
-    )
-
-if alphabet=="":
-    alphabet="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
-
-data = input("\nInforme o arquivo com o texto codificado em base64: ")
-
 import json
 
 alphabet=input(
