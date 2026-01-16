@@ -29,10 +29,6 @@ with open(data, "r") as file:
         if any(char not in alphabet for char in token):
             continue
 
-        # Padding automático
-        while len(token) % 4 != 0:
-            token += "="
-
         # Base64 custom decode
         bits = ""
         try:
